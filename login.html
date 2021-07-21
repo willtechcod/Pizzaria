@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria da Ju</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    <header>
+        <!--Cabeçalho da página-->
+        <h2>Pizzaria da Jú | <span>Pedidos</span></h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="editar.html">Editar Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fim do Cabeçalho-->
+    <main>
+        <!--Estrutura do corpo dos campos para os pedidos-->
+        <section>
+            <fieldset class="login">
+                <legend>Faça Seu Login</legend>
+                <form name="formulario" id="formulario" action="dashboard.html" method="POST">
+                    <!--Inicio do Fomulário-->
+                    <label class="loginlabel">Usuário </label><br>
+                    <input type="text" name="nome" placeholder="Digite usuário" id="nome"><br>
+                    <p class="erro">Você prescisa digitar um usuário !</p><br>
+                    <label class="loginlabel">Senha </label><br>
+                    <input type="text" name="senha" placeholder="Sua Senha" id="senha"><br>
+                    <p class="erro">Você prescisa digitar uma senha !</p><br>
+                    </select><br>
+                    </select>
+                    <input type="button" id="btn" onclick="salvarpedido()" name="enviar" value="Login"><!--Botão de registro-->
+                    <p id="pedido"></p>
+                </form>
+                <!--Fim do Fomulário-->
+            </fieldset>
+        </section>       
+    </main>
+    <!--Fim da Estrutura do corpo dos campos para os pedidos-->
+    <script src="js/master.js"></script>
+</body>
+</html>
