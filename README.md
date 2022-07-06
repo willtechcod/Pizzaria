@@ -1,6 +1,6 @@
 Testando conhecimentos básicos em HTML, CSS e JavaScript
 
-<img width="100%" src=".github/screens.png">
+<img width="100%" src="./img/screens.png">
 
 # Indice
 
